@@ -4,8 +4,8 @@
   "description": "Connehito Tech Vision",
   "main": "index.js",
   "scripts": {
-    "start": "honkit serve . docs",
-    "build": "honkit build . docs"
+    "start": "honkit serve ./ ./docs",
+    "build": "honkit build ./ ./docs"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
     "gitbook",
     "honkit"
   ],
+  "license": "UNLICENSED",
   "author": "Connehito Developer's",
   "bugs": {
     "url": "https://github.com/Connehito/tech-vision/issues"
