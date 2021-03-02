@@ -11,7 +11,12 @@
     "type": "git",
     "url": "git+ssh://git@github.com/Connehito/tech-vision.git"
   },
-  "keywords": ["connehito", "tech-vision", "gitbook", "honkit"],
+  "keywords": [
+    "connehito",
+    "tech-vision",
+    "gitbook",
+    "honkit"
+  ],
   "author": "Connehito Developer's",
   "bugs": {
     "url": "https://github.com/Connehito/tech-vision/issues"
@@ -20,6 +25,7 @@
   "devDependencies": {
     "gitbook-plugin-advanced-emoji": "^0.2.2",
     "gitbook-plugin-hide-published-with": "0.0.1",
+    "gitbook-plugin-open-graph": "0.0.1",
     "honkit": "^3.6.17"
   }
 }
