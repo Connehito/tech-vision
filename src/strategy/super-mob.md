@@ -1,3 +1,5 @@
+![Connehito Tech Vision](../image/txt_tech.png)
+
 # スーパーモブ
 
 *個人ではなくチームで成果を出すことを最優先する（モブ化）

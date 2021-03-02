@@ -1,3 +1,5 @@
+![Connehito Tech Vision](../image/txt_tech.png)
+
 # Vision
 
 Connehito Tech Visionでは**「Beyond a Tech Company」**というビジョンを掲げています。また、副題として**"アフターデジタルな世界の中で、テックカンパニーを越えた「アフターテックカンパニー」を目指す。"**というタグラインを設定しています。

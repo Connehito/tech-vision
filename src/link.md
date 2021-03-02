@@ -1,3 +1,5 @@
+![Connehito Tech Vision](image/txt_tech.png)
+
 # Link
 Connehito Tech Visionをより深く知るための外部コンテンツをまとめています。
 

@@ -1,3 +1,5 @@
+![Connehito Tech Vision](../image/txt_tech.png)
+
 # Manifesto
 
 マニフェストは「Beyond a Tech Company」を実現するためにコネヒトのエンジニアが大切にすべき価値観やマインドセットをまとめたものになります。

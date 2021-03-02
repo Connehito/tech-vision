@@ -1,3 +1,5 @@
+![Connehito Tech Vision](../image/txt_tech.png)
+
 # Failable System
 
 * 失敗が出来る（失敗しても問題ない、失敗が評価される）システムと組織をつくる

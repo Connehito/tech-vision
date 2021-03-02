@@ -1,3 +1,5 @@
+![Connehito Tech Vision](../image/txt_tech.png)
+
 # Program
 
 プログラムは「Beyond a Tech Company」に向けた取り組みを加速させるための社内制度をまとめたものになります。

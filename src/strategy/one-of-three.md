@@ -1,3 +1,5 @@
+![Connehito Tech Vision](../image/txt_tech.png)
+
 # 3人に1人
 
 * 社内のエンジニア比率を33%以上にする

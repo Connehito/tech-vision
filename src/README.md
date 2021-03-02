@@ -1,3 +1,5 @@
+![Connehito Tech Vision](image/txt_tech.png)
+
 # Introduction
 
 そもそも、Connehito Tech Visionとは何なのか？ここではその概要を紹介します。

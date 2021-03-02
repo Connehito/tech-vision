@@ -1,3 +1,5 @@
+![Connehito Tech Vision](../image/txt_tech.png)
+
 # 1to1 AI
 
 * 一人一人に最適化された情報をデータや機械学習を用いて提供する

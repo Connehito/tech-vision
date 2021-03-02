@@ -1,3 +1,5 @@
+![Connehito Tech Vision](../image/txt_tech.png)
+
 # Strategy
 
 ストラテジーは「Beyond a Tech Company」という山の「登り方」をまとめたものになります。
