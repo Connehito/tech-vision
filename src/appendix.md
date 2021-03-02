@@ -1,6 +1,6 @@
 ![Connehito Tech Vision](image/txt_tech.png)
 
-# Link
+# Appendix
 Connehito Tech Visionをより深く知るための外部コンテンツをまとめています :wink:
 
 * [コネヒト株式会社のHP](https://connehito.com/)
