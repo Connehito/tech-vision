@@ -14,4 +14,5 @@
 * [Program](program/README.md)
   * [エンジニア評価制度](program/evaluation-system.md)
   * [スマイル制度](program/smile.md)
-* [Link](link.md)
+* [Appendix](appendix.md)
+* [GitHub](https://github.com/Connehito/tech-vision)
