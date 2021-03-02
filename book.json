@@ -3,7 +3,7 @@
   "title": "Connehito Tech Vision",
   "description": "Connehito Tech Visionはコネヒト社におけるテクノロジーへの「態度」を表明した羅針盤です。",
   "root": "src",
-  "plugins": ["hide-published-with"],
+  "plugins": ["advanced-emoji", "hide-published-with"],
   "pluginsConfig": {
     "fontsettings": {
       "size": 1
