@@ -1,0 +1,15 @@
+{
+  "language": "ja",
+  "title": "Connehito Tech Vision",
+  "description": "Connehito Tech Visionはコネヒト社におけるテクノロジーへの「態度」を表明した羅針盤です。",
+  "root": "src",
+  "plugins": ["advanced-emoji", "hide-published-with"],
+  "pluginsConfig": {
+    "fontsettings": {
+      "size": 1
+    }
+  },
+  "styles": {
+    "website": "style/website.css"
+  }
+}

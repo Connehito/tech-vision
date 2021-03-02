@@ -1,0 +1,26 @@
+{
+  "name": "tech-vision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "honkit serve . docs",
+    "build": "honkit build . docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Connehito/tech-vision.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Connehito/tech-vision/issues"
+  },
+  "homepage": "https://github.com/Connehito/tech-vision#readme",
+  "devDependencies": {
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-hide-published-with": "0.0.1",
+    "honkit": "^3.6.17"
+  }
+}
