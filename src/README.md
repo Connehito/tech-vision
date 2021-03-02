@@ -25,13 +25,13 @@ Connehito Tech Visionは、一言で言うとコネヒトにおけるテクノ�
 
 テックビジョンは以下の4つの要素から構成されています。
 
-* [Vision](vision/README.md)
+* [Vision](src/vision/README.md)
   * 目指すべき中長期の姿
-* [Manifesto](manifesto/README.md)
+* [Manifesto](src/manifesto/README.md)
   * Visionを達成するために持つべき価値観
-* [Strategy](strategy/README.md)
+* [Strategy](src/strategy/README.md)
   * Visionを達成するための具体的な戦略
-* [Program](program/README.md)
+* [Program](src/program/README.md)
   * Visionを達成するための社内制度
 
 ## Connehito Tech Visionのスコープと運用
