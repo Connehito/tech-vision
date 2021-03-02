@@ -2,7 +2,7 @@
 
 # Strategy
 
-ストラテジーは「Beyond a Tech Company」という山の「登り方」をまとめたものになります。
+ストラテジーは「Beyond a Tech Company」という山の「登り方」をまとめたものになります :mount_fuji:
 
 ストラテジーは外部環境や内部環境を鑑みた上で策定しています。しかし、変化が当たり前の今の時代において、ストラテジーはイミュータブルではなく、ミュータブルであるべきだと考え、継続的な見直しと必要に応じてアップデートを積極的に行います。
 
@@ -26,3 +26,5 @@
 * Failable System
 * Let's Go
 * 1to1 AI
+
+![Strategy](../image/strategy.png)
