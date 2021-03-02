@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Connehito/tech-vision#readme",
   "devDependencies": {
+    "gitbook-plugin-hide-published-with": "0.0.1",
     "honkit": "^3.6.17"
   }
 }
