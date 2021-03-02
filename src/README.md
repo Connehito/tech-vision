@@ -1,10 +1,12 @@
+![Connehito Tech Vision](image/txt_tech.png)
+
 # Introduction
 
 そもそも、Connehito Tech Visionとは何なのか？ここではその概要を紹介します。
 
 ## Connehito Tech Visionとは？
 
-Connehito Tech Visionは、一言で言うとコネヒトにおけるテクノロジーへの「態度」を表明した羅針盤です。具体的には、コネヒトのエンジニア組織及び技術領域において、何を大事に何に投資していくかと言った未来の構想や方向性をまとめたものになります。Connehito Tech Visionの達成に向けて、中心的な役割を果たすのはエンジニアになりますが、適用範囲はエンジニア組織だけではなく、全社で推進していくものになります。
+Connehito Tech Visionは、一言で言うとコネヒトにおけるテクノロジーへの「態度」を表明した羅針盤です。具体的には、コネヒトのエンジニア組織及び技術領域において、何を大事に何に投資していくかと言った未来の構想や方向性をまとめたものになります。Connehito Tech Visionの達成に向けて、中心的な役割を果たすのはエンジニアになりますが、適用範囲はエンジニア組織だけではなく、全社で推進していくものになります :sparkles:
 
 ## Connehito Tech Visionの必要性と目的
 
@@ -33,14 +35,16 @@ Connehito Tech Visionは、一言で言うとコネヒトにおけるテクノ�
   * Visionを達成するための具体的な戦略
 * Program
   * Visionを達成するための社内制度
+  
+![テックビジョンの構成要素](image/structure.png)
 
 ## Connehito Tech Visionのスコープと運用
 
 テックビジョンは環境変化に適応するために以下のフェーズに分けることでスコープを明確にしています。
 
 * Phase1
-  * 2021年〜2023年前半
+  * 2021年〜2023年
 * Phase2
-  * 2023年後半〜2025年
+  * 2023年〜2025年
 
 このテックビジョンはPhase1として策定されています。Visionは原則として変更せず、ManifestoやStrategy、Programは継続的な議論を行い、必要に応じて適宜見直しを実施します。

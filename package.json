@@ -1,7 +1,7 @@
 {
   "name": "tech-vision",
   "version": "1.0.0",
-  "description": "",
+  "description": "Connehito Tech Vision",
   "main": "index.js",
   "scripts": {
     "start": "honkit serve . docs",
@@ -11,9 +11,8 @@
     "type": "git",
     "url": "git+ssh://git@github.com/Connehito/tech-vision.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["connehito", "tech-vision", "gitbook", "honkit"],
+  "author": "Connehito Developer's",
   "bugs": {
     "url": "https://github.com/Connehito/tech-vision/issues"
   },

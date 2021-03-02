@@ -1,5 +1,7 @@
+![Connehito Tech Vision](image/txt_tech.png)
+
 # Link
-Connehito Tech Visionをより深く知るための外部コンテンツをまとめています。
+Connehito Tech Visionをより深く知るための外部コンテンツをまとめています :wink:
 
 * [コネヒト株式会社のHP](https://connehito.com/)
   * HP内にもConnehito Tech Visionの[紹介ページ](https://connehito.com/recruit/tech/)があります。 

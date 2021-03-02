@@ -1,6 +1,8 @@
+![Connehito Tech Vision](../image/txt_tech.png)
+
 # Let's Go
 
-* バックエンドのシステムにGoを積極的に導入する
+* バックエンドのシステムにGoを積極的に導入する :new:
 
 ## なぜやるのか？
 

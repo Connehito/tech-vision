@@ -1,10 +1,12 @@
+![Connehito Tech Vision](../image/txt_tech.png)
+
 # Manifesto
 
 マニフェストは「Beyond a Tech Company」を実現するためにコネヒトのエンジニアが大切にすべき価値観やマインドセットをまとめたものになります。
 
 一般的にはバリューや行動指針に近いものになりますが、コネヒト社としての[バリュー](https://connehito.com/about/)とコンフリクトしない形で、より具体的かつエンジニアにフォーカスしたものとして扱っています。
 
-また、迷った時の判断軸となるよう[アジャイルソフトウェア開発宣言](https://agilemanifesto.org/iso/ja/manifesto.html)にインスパイアされた形式で、コネヒトソフトウェア開発宣言として定義しています。
+また、迷った時の判断軸となるよう[アジャイルソフトウェア開発宣言](https://agilemanifesto.org/iso/ja/manifesto.html)にインスパイアされた形式で、コネヒトソフトウェア開発宣言として定義しています :smile:
 
 ## コネヒトソフトウェア開発宣言
 
