@@ -42,7 +42,5 @@ Connehito Tech Visionは、一言で言うとコネヒトにおけるテクノ�
   * 2021年〜2023年前半
 * Phase2
   * 2023年後半〜2025年
-* Phase3
-  * 2026年〜
 
 このテックビジョンはPhase1として策定されています。Visionは原則として変更せず、ManifestoやStrategy、Programは継続的な議論を行い、必要に応じて適宜見直しを実施します。
