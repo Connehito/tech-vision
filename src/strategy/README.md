@@ -19,9 +19,8 @@
 
 ### 5つの戦略
 
-* [3人に1人](src/strategy/one-of-three.md)
-* [スーパーモブ](src/strategy/super-mob.md)
-* [Failable System](src/strategy/failable-system.md)
-* [Let's Go](src/strategy/lets-go.md)
-* [1to1 AI](src/strategy/one-to-one-ai.md)
-
+* 3人に1人
+* スーパーモブ
+* Failable System
+* Let's Go
+* 1to1 AI

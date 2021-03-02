@@ -6,5 +6,5 @@
 
 ## 代表的なプログラム
 
-* [エンジニア評価制度](src/program/evaluation-system.md)
-* [スマイル制度](src/program/smile.md)
+* エンジニア評価制度
+* スマイル制度
