@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "honkit serve ./ ./docs",
-    "build": "honkit build ./ ./docs"
+    "build": "honkit build ./ ./docs && echo 'tech-vision.connehito.com' > ./docs/CNAME"
   },
   "repository": {
     "type": "git",
