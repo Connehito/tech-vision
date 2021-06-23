@@ -27,6 +27,7 @@
     "gitbook-plugin-advanced-emoji": "^0.2.2",
     "gitbook-plugin-hide-published-with": "0.0.1",
     "gitbook-plugin-open-graph": "0.0.1",
-    "honkit": "^3.6.17"
+    "honkit": "^3.6.17",
+    "honkit-plugin-google-analytics": "^1.0.0"
   }
 }
