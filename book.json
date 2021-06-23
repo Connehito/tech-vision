@@ -3,8 +3,11 @@
   "title": "Connehito Tech Vision",
   "description": "Connehito Tech Visionはコネヒト社におけるテクノロジーへの「態度」を表明した羅針盤です。",
   "root": "src",
-  "plugins": ["advanced-emoji", "hide-published-with", "open-graph"],
+  "plugins": ["advanced-emoji", "hide-published-with", "honkit-plugin-google-analytics", "open-graph"],
   "pluginsConfig": {
+    "analytics": {
+      "uid": "UA-46985361-27"
+    },
     "fontsettings": {
       "size": 1
     },
