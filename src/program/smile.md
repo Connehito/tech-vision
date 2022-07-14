@@ -39,4 +39,4 @@
 ## Appendix
 
 * [コネヒトは技術コミュニティになくてはならない開発組織を目指すために「スマイル制度」をはじめました！](https://tech.connehito.com/entry/2019/08/22/111953)
-* [技術コミュニティになくてはならない組織を目指すための旅路](https://speakerdeck.com/itosho525/aim-for-the-indispensable-company-for-our-engineer-community)
+* [技術コミュニティになくてはならない組織を目指すための旅路](https://speakerdeck.com/itosho/aim-for-the-indispensable-company-for-our-engineer-community)
