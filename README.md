@@ -10,6 +10,8 @@
 
 ## 環境構築
 
+Node.js >= v18.x で実行してください。
+
 ```bash
 # clone
 git@github.com:Connehito/tech-vision.git
