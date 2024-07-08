@@ -17,9 +17,9 @@
     * [既存プロダクトのCakePHPのアップグレード戦略](https://tech.connehito.com/entry/2022/03/25/100000)
   * レガシーリポジトリのリプレイス
     * [無駄な物をなるべく作らないリプレイス戦略](https://speakerdeck.com/fortkle/replace-strategy-phperkaigi2021)
-  * 本番データを開発環境への同期
+  * 本番データの開発環境への同期
 
 
-## Phase2で取り組むこと
+### Phase2で取り組むこと
 
 * Phase1で組織に蓄積されたナレッジを活かし、持続的に開発基盤強化や開発体験向上を行う
