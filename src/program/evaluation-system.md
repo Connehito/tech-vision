@@ -41,4 +41,3 @@
 ## Appendix
 
 * [コネヒトCTO伊藤がエンジニア評価をテーマにしたイベントに登壇しました！](https://www.wantedly.com/companies/connehito/post_articles/283134)
-* [ママリのリードエンジニアインタビュー【後悔しない技術選択の意思決定をしていきたい】](https://www.wantedly.com/companies/connehito/post_articles/278823)

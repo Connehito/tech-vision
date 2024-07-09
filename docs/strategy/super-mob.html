@@ -136,20 +136,21 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="one-of-three.html">
+        <li class="chapter " data-level="1.4.1" >
             
-                <a href="one-of-three.html">
+                <span>
             
                     
-                    3人に1人
+                    In Progress
             
-                </a>
+                </span>
             
 
             
-        </li>
+            <ul class="articles">
+                
     
-        <li class="chapter active" data-level="1.4.2" data-path="super-mob.html">
+        <li class="chapter active" data-level="1.4.1.1" data-path="super-mob.html">
             
                 <a href="super-mob.html">
             
@@ -162,7 +163,20 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.3" data-path="failable-system.html">
+        <li class="chapter " data-level="1.4.1.2" data-path="run-with-tech.html">
+            
+                <a href="run-with-tech.html">
+            
+                    
+                    Run with Tech
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="failable-system.html">
             
                 <a href="failable-system.html">
             
@@ -175,7 +189,52 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.4" data-path="lets-go.html">
+        <li class="chapter " data-level="1.4.1.4" data-path="one-to-one-ai.html">
+            
+                <a href="one-to-one-ai.html">
+            
+                    
+                    1to1 AI
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" >
+            
+                <span>
+            
+                    
+                    Completed
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="one-of-three.html">
+            
+                <a href="one-of-three.html">
+            
+                    
+                    3人に1人
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="lets-go.html">
             
                 <a href="lets-go.html">
             
@@ -188,16 +247,8 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.5" data-path="one-to-one-ai.html">
-            
-                <a href="one-to-one-ai.html">
-            
-                    
-                    1to1 AI
-            
-                </a>
-            
 
+            </ul>
             
         </li>
     
@@ -333,23 +384,24 @@
 <li>人が増えても入れ替わっても開発の質と速度が落ちないようにするため <img align="absmiddle" alt=":rocket:" class="emoji" src="../gitbook/gitbook-plugin-advanced-emoji/emojis/rocket.png" title=":rocket:"></li>
 </ul>
 <h2 id="どうやるのか？">どうやるのか？</h2>
-<h3 id="検討していること">検討していること</h3>
+<h3 id="phase1で取り組んだこと">Phase1で取り組んだこと</h3>
 <ul>
-<li>ナレッジの徹底的なアウトプット（例: ドキュメントやコード化）<ul>
-<li>属人性を排除し、組織としてのスキルの流動性を高める</li>
-<li>組織サイズに応じた情報流通の見直しを実施する</li>
+<li>クロスファンクショナルチームを組成し、開発基盤の強化や開発体験の向上を図る<ul>
+<li>メインプロダクトのバージョンアップデート(PHP etc)<ul>
+<li><a href="https://tech.connehito.com/entry/2022/03/25/100000" target="_blank">既存プロダクトのCakePHPのアップグレード戦略</a></li>
 </ul>
 </li>
-<li>厳密なスパンオブコントロールを実施し、クロスファンクショナルチームを数多く作成することで開発のアジリティを高める</li>
-<li>システムやプロセスの標準化を実施することで、チームのサイロ化を防ぐ</li>
-</ul>
-<h2 id="phase1ではやらないこと">Phase1ではやらないこと</h2>
-<ul>
-<li>中長期的な外部の技術顧問の招聘<ul>
-<li>組織としての自浄能力を発揮するため</li>
-<li>単発で招聘することは必要に応じて行う</li>
+<li>レガシーリポジトリのリプレイス<ul>
+<li><a href="https://speakerdeck.com/fortkle/replace-strategy-phperkaigi2021" target="_blank">無駄な物をなるべく作らないリプレイス戦略</a></li>
 </ul>
 </li>
+<li>本番データの開発環境への同期</li>
+</ul>
+</li>
+</ul>
+<h3 id="phase2で取り組むこと">Phase2で取り組むこと</h3>
+<ul>
+<li>Phase1で組織に蓄積されたナレッジを活かし、持続的に開発基盤強化や開発体験向上を行う</li>
 </ul>
 
                                 
@@ -378,12 +430,8 @@
 
             
                 
-                <a href="one-of-three.html" class="navigation navigation-prev " aria-label="Previous page: 3人に1人">
-                    <i class="fa fa-angle-left"></i>
-                </a>
                 
-                
-                <a href="failable-system.html" class="navigation navigation-next " aria-label="Next page: Failable System">
+                <a href="run-with-tech.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Run with Tech">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -394,7 +442,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"スーパーモブ","level":"1.4.2","depth":2,"next":{"title":"Failable System","level":"1.4.3","depth":2,"path":"strategy/failable-system.md","ref":"strategy/failable-system.md","articles":[]},"previous":{"title":"3人に1人","level":"1.4.1","depth":2,"path":"strategy/one-of-three.md","ref":"strategy/one-of-three.md","articles":[]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","hide-published-with","honkit-plugin-google-analytics","open-graph","livereload"],"root":"src","styles":{"website":"style/website.css"},"pluginsConfig":{"livereload":{},"analytics":{"uid":"UA-46985361-27"},"search":{},"open-graph":{"baseURL":"https://tech-vision.connehito.com","defaultDescription":"Connehito Tech Visionはコネヒト社におけるテクノロジーへの「態度」を表明した羅針盤です。","defaultImage":"image/ogp_connehito.png"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"honkit-plugin-google-analytics":{},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":1},"highlight":{},"advanced-emoji":{"embedEmojis":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Connehito Tech Vision","language":"ja","gitbook":"*","description":"Connehito Tech Visionはコネヒト社におけるテクノロジーへの「態度」を表明した羅針盤です。"},"file":{"path":"strategy/super-mob.md","mtime":"2024-06-24T05:13:41.452Z","type":"markdown"},"gitbook":{"version":"5.1.4","time":"2024-06-24T06:18:07.726Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"スーパーモブ","level":"1.4.1.1","depth":3,"next":{"title":"Run with Tech","level":"1.4.1.2","depth":3,"path":"strategy/run-with-tech.md","ref":"strategy/run-with-tech.md","articles":[]},"previous":{"title":"In Progress","level":"1.4.1","depth":2,"ref":"","articles":[{"title":"スーパーモブ","level":"1.4.1.1","depth":3,"path":"strategy/super-mob.md","ref":"strategy/super-mob.md","articles":[]},{"title":"Run with Tech","level":"1.4.1.2","depth":3,"path":"strategy/run-with-tech.md","ref":"strategy/run-with-tech.md","articles":[]},{"title":"Failable System","level":"1.4.1.3","depth":3,"path":"strategy/failable-system.md","ref":"strategy/failable-system.md","articles":[]},{"title":"1to1 AI","level":"1.4.1.4","depth":3,"path":"strategy/one-to-one-ai.md","ref":"strategy/one-to-one-ai.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["advanced-emoji","hide-published-with","honkit-plugin-google-analytics","open-graph","livereload"],"root":"src","styles":{"website":"style/website.css"},"pluginsConfig":{"livereload":{},"analytics":{"uid":"UA-46985361-27"},"search":{},"open-graph":{"baseURL":"https://tech-vision.connehito.com","defaultDescription":"Connehito Tech Visionはコネヒト社におけるテクノロジーへの「態度」を表明した羅針盤です。","defaultImage":"image/ogp_connehito.png"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"honkit-plugin-google-analytics":{},"hide-published-with":{},"fontsettings":{"theme":"white","family":"sans","size":1},"highlight":{},"advanced-emoji":{"embedEmojis":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Connehito Tech Vision","language":"ja","gitbook":"*","description":"Connehito Tech Visionはコネヒト社におけるテクノロジーへの「態度」を表明した羅針盤です。"},"file":{"path":"strategy/super-mob.md","mtime":"2024-07-08T02:17:52.116Z","type":"markdown"},"gitbook":{"version":"5.1.4","time":"2024-07-08T03:09:44.245Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

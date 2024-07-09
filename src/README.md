@@ -35,7 +35,7 @@ Connehito Tech Visionは、一言で言うとコネヒトにおけるテクノ�
   * Visionを達成するための具体的な戦略
 * Program
   * Visionを達成するための社内制度
-  
+
 ![テックビジョンの構成要素](image/structure.png)
 
 ## Connehito Tech Visionのスコープと運用
@@ -47,4 +47,4 @@ Connehito Tech Visionは、一言で言うとコネヒトにおけるテクノ�
 * Phase2
   * 2023年〜2025年
 
-このテックビジョンはPhase1として策定されています。Visionは原則として変更せず、ManifestoやStrategy、Programは継続的な議論を行い、必要に応じて適宜見直しを実施します。
+このテックビジョンはPhase2として策定されています。Phase1を終了し、その成果と課題を振り返った結果、さらなる進展を目指してStrategyのアップデートを行いました。Visionは原則として変更せず、ManifestoやStrategy、Programは継続的な議論を行い、必要に応じて適宜見直しを実施します。
