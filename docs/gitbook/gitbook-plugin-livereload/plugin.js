@@ -1,4 +1,6 @@
 (function() {
+  if (window.location.hostname === "tech-vision.connehito.com") return;
+
   var newEl = document.createElement('script'),
       firstScriptTag = document.getElementsByTagName('script')[0];
 
