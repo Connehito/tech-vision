@@ -3,6 +3,8 @@
 # Let's Go
 Goがコネヒトの技術スタックの選択肢の一つになったのでPhase1で役目を終えた
 
+[手を動かして見えた未来、コネヒトのGo戦略変更の舞台裏](https://note.com/connehito_blog/n/nd72e255ce032?magazine_key=m7cbfcfb1d13a)
+
 * バックエンドのシステムにGoを積極的に導入する :new:
 
 
