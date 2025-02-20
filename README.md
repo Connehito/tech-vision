@@ -6,6 +6,8 @@
 
 コネヒト社が掲げる「Connehito Tech Vision」の管理リポジトリです。GitHub Pagesで公開しています。
 
+This is the repository for Connehito's Tech Vision, which is published on GitHub Pages.
+
 * Connehito Tech Vision: https://tech-vision.connehito.com
 
 ## 環境構築
