@@ -1,0 +1,62 @@
+name: Auto Documentation Update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'yarn'
+      
+      - name: Install dependencies
+        run: yarn install
+      
+      - name: Build documentation
+        run: yarn build
+      
+      - name: Create Pull Request
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          timestamp=$(date +%Y%m%d%H%M%S)
+          branch_name="docs/$timestamp-update"
+          
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          git checkout -b "$branch_name"
+          git add docs/
+          
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: ドキュメントの自動更新 ($timestamp)"
+            git push origin "$branch_name"
+            
+            gh pr create \
+              --base main \
+              --head "$branch_name" \
+              --title "ドキュメントの自動更新 ($timestamp)" \
+              --body "## 概要
+- /srcディレクトリの変更に基づくドキュメントの自動更新
+- HonKitによるビルド結果を反映
+
+## 確認項目
+- [ ] ドキュメントが正しくビルドされていること
+- [ ] CNAMEファイルが保持されていること"
+          else
+            echo "No changes to commit"
+          fi
