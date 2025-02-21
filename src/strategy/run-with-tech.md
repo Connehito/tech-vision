@@ -1,6 +1,6 @@
 ![Connehito Tech Vision](../image/txt_tech.png)
 
-# Run with Tech
+# Run with Super Tech
 
 * 世の中のテクノロジーの成長と共にコネヒトも成長し、新たな価値を生み出しステークホルダーを喜ばせる
 
@@ -14,10 +14,10 @@
 
 ### Phase1で取り組んだこと
 
-* Run with Techプロジェクトの開始
+* Run with Super Techプロジェクトの開始
   * 従業員の生成AI（テクノロジー）に対する基礎知識の向上
   * 各事業における小さな成功事例の創出
-  * [生成AIなどのテクノロジーの力でビジネス成長を目指す『Run with Tech』の活動紹介](https://tech.connehito.com/entry/2024/05/27/175343)
+  * [生成AIなどのテクノロジーの力でビジネス成長を目指す『Run with Super Tech』の活動紹介](https://tech.connehito.com/entry/2024/05/27/175343)
 
 ### Phase2で取り組むこと
 

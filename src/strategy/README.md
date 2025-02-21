@@ -22,7 +22,7 @@
 ### 4つの戦略
 
 * スーパーモブ
-* Run with Tech
+* Run with Super Tech
 * Failable System
 * 1to1 AI
 
