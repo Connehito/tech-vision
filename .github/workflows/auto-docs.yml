@@ -6,6 +6,11 @@ on:
       - main
     paths:
       - 'src/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'src/**'
 
 jobs:
   build-docs:
@@ -16,6 +21,10 @@ jobs:
     
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -29,7 +38,21 @@ jobs:
       - name: Build documentation
         run: yarn build
       
+      - name: Verify build result
+        run: |
+          if [ ! -f "docs/CNAME" ]; then
+            echo "Error: CNAME file is missing"
+            exit 1
+          fi
+          if [ ! -f "docs/index.html" ]; then
+            echo "Error: Documentation build failed"
+            exit 1
+          fi
+          echo "✅ Documentation built successfully"
+          echo "✅ CNAME file preserved"
+      
       - name: Create Pull Request
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -57,6 +80,21 @@ jobs:
 ## 確認項目
 - [ ] ドキュメントが正しくビルドされていること
 - [ ] CNAMEファイルが保持されていること"
+          else
+            echo "No changes to commit"
+          fi
+      
+      - name: Commit changes in PR
+        if: github.event_name == 'pull_request'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          git add docs/
+          
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: ドキュメントの自動更新"
+            git push origin HEAD
           else
             echo "No changes to commit"
           fi
