@@ -35,16 +35,11 @@ jobs:
       
       - name: Verify build result
         run: |
-          if [ ! -f "docs/CNAME" ]; then
-            echo "Error: CNAME file is missing"
-            exit 1
-          fi
           if [ ! -f "docs/index.html" ]; then
             echo "Error: Documentation build failed"
             exit 1
           fi
           echo "✅ Documentation built successfully"
-          echo "✅ CNAME file preserved"
       
       - name: Create Pull Request
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -59,6 +54,7 @@ jobs:
           
           git checkout -b "$branch_name"
           git add docs/
+          git reset -- docs/CNAME
           
           if ! git diff --cached --quiet; then
             git commit -m "docs: ドキュメントの自動更新 ($timestamp)"
@@ -74,7 +70,7 @@ jobs:
 
 ## 確認項目
 - [ ] ドキュメントが正しくビルドされていること
-- [ ] CNAMEファイルが保持されていること"
+"
           else
             echo "No changes to commit"
           fi
