@@ -63,9 +63,9 @@ jobs:
             gh pr create \
               --base main \
               --head "$branch_name" \
-              --title "ドキュメントの自動更新 ($timestamp)" \
+              --title "chore(docs): HonKit ビルドによるドキュメント更新" \
               --body "## 概要
-- /srcディレクトリの変更に基づくドキュメントの自動更新
+- /srcディレクトリの変更に基づくHonKit ビルドでのドキュメント自動更新 (by GitHub Actions)
 - HonKitによるビルド結果を反映
 
 ## 確認項目
