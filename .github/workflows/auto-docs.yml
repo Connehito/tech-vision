@@ -57,7 +57,7 @@ jobs:
           git reset -- docs/CNAME
           
           if ! git diff --cached --quiet; then
-            git commit -m "docs: ドキュメントの自動更新 ($timestamp)"
+            git commit -m "chore(docs): HonKit ビルドによるドキュメント更新"
             git push origin "$branch_name"
             
             gh pr create \
@@ -84,7 +84,7 @@ jobs:
           git add docs/
           
           if ! git diff --cached --quiet; then
-            git commit -m "docs: ドキュメントの自動更新"
+            git commit -m "chore(docs): HonKit ビルドによるドキュメント更新"
             git push origin HEAD
           else
             echo "No changes to commit"
