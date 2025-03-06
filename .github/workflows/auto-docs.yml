@@ -13,22 +13,22 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    
+
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
           cache: 'yarn'
-      
+
       - name: Install dependencies
         run: yarn install
-      
+
       - name: Build documentation
         run: yarn build
-      
+
       - name: Verify build result
         run: |
           if [ ! -f "docs/index.html" ]; then
@@ -36,7 +36,7 @@ jobs:
             exit 1
           fi
           echo "✅ Documentation built successfully"
-      
+
       - name: Create Pull Request
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         env:
@@ -44,29 +44,30 @@ jobs:
         run: |
           timestamp=$(date +%Y%m%d%H%M%S)
           branch_name="docs/$timestamp-update"
-          
+
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
+
           git checkout -b "$branch_name"
           git add docs/
           git reset -- docs/CNAME
-          
+
           if ! git diff --cached --quiet; then
             git commit -m "chore(docs): HonKit ビルドによるドキュメント更新"
             git push origin "$branch_name"
-            
+
             gh pr create \
               --base main \
               --head "$branch_name" \
               --title "chore(docs): HonKit ビルドによるドキュメント更新" \
-              --body "## 概要
+              --body-file - <<EOF
+## 概要
 - /srcディレクトリの変更に基づくHonKit ビルドでのドキュメント自動更新 (by GitHub Actions)
 - HonKitによるビルド結果を反映
 
 ## 確認項目
 - [ ] ドキュメントが正しくビルドされていること
-"
+EOF
           else
             echo "No changes to commit"
           fi
