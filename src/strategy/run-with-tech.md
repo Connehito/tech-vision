@@ -17,7 +17,7 @@
 * Run with Techプロジェクトの開始
   * 従業員の生成AI（テクノロジー）に対する基礎知識の向上
   * 各事業における小さな成功事例の創出
-  * [生成AIなどのテクノロジーの力でビジネス成長を目指す『Run with Tech』の活動紹介](https://tech.connehito.com/entry/2024/05/27/175343)
+  * [Run with Techプロジェクトはどのように始まったか](https://note.com/shnagai/n/nbc55ffaef8ba)
 
 ### Phase2で取り組むこと
 
