@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - 'src/**'
-  workflow_dispatch:
 
 jobs:
   build-docs:
@@ -68,7 +67,7 @@ jobs:
 
               ## 確認項目
               - [ ] ドキュメントが正しくビルドされていること
-              EOF
+          EOF
           else
             echo "No changes to commit"
           fi
