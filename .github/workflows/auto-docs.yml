@@ -61,14 +61,14 @@ jobs:
               --base main \
               --head "$branch_name" \
               --title "chore(docs): HonKit ビルドによるドキュメント更新" \
-              --body-file - <<EOF
-## 概要
-- /srcディレクトリの変更に基づくHonKit ビルドでのドキュメント自動更新 (by GitHub Actions)
-- HonKitによるビルド結果を反映
+              --body-file - <<-'EOF'
+              ## 概要
+              - /srcディレクトリの変更に基づくHonKit ビルドでのドキュメント自動更新 (by GitHub Actions)
+              - HonKitによるビルド結果を反映
 
-## 確認項目
-- [ ] ドキュメントが正しくビルドされていること
-EOF
+              ## 確認項目
+              - [ ] ドキュメントが正しくビルドされていること
+              EOF
           else
             echo "No changes to commit"
           fi
